@@ -96,6 +96,11 @@ nav ul li:hover a{
     color: #ffffff;
     font-size: 13px;
     text-transform: uppercase;
+    transition: background 0.3s linear;
+}
+
+.hero_con a:hover{
+    background: #be2727;
 }
 .pt_100{
     padding-top: 100px;
@@ -218,8 +223,7 @@ nav ul li:hover a{
 .test_part {
     margin-top: 100px;
     height: 500px;
-    border: 1px solid red;
-    overflow-y: hidden;
+    
 }
 
 .test_wrapper{
